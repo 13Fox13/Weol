@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native/React/Base/RCTPerformanceLogger.h
