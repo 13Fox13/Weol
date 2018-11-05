@@ -6,18 +6,18 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>8B920D09-4117-4E3F-B6EE-9F36D17C2F53</key>
+		<key>90BBF303-4979-4604-8E10-CB0891F4472B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8B920D09-4117-4E3F-B6EE-9F36D17C2F53.xcactivitylog</string>
+			<string>90BBF303-4979-4604-8E10-CB0891F4472B.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>Weol project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project Weol with scheme Weol and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>562590789.50294495</real>
+			<real>563101326.88643599</real>
 			<key>timeStoppedRecording</key>
-			<real>562590793.13580096</real>
+			<real>563101345.11456704</real>
 			<key>title</key>
 			<string>Building project Weol with scheme Weol and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>8B920D09-4117-4E3F-B6EE-9F36D17C2F53</string>
-		</dict>
-		<key>9CCC09A0-4B8A-48B3-9600-0C80DA7D4B9B</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9CCC09A0-4B8A-48B3-9600-0C80DA7D4B9B.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Weol project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Weol</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Weol with scheme Weol and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>562590682.09591699</real>
-			<key>timeStoppedRecording</key>
-			<real>562590685.92739105</real>
-			<key>title</key>
-			<string>Building project Weol with scheme Weol and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>9CCC09A0-4B8A-48B3-9600-0C80DA7D4B9B</string>
+			<string>90BBF303-4979-4604-8E10-CB0891F4472B</string>
 		</dict>
 	</dict>
 </dict>

@@ -1,58 +1,51 @@
-import React, {Component} from 'react';
-import { 
-  StyleSheet, View, Text, Image, KeyboardAvoidingView,
+import React, {Component} from 'react'
+import {
+  View, StyleSheet, KeyboardAvoidingView, 
   TouchableWithoutFeedback, Keyboard
-} from 'react-native';
-import LoginForm from './src/components/login/LoginForm';
+} from 'react-native'
+import {Header} from './src/components/uikit'
+import {LoginForm} from './src/components/uikit/form'
+import {h, w} from './constants'
 
-
+//const url = '...'
 export default class App extends Component {
+  state = {
+    title: 'Вход'
+    //data: []
+  }
 
+  /*componentDidMount = async () => {
+    try {
+      const response = await fetch(url)
+      const data = await response.json
+      this.setState ({data})
+    } catch (error) {
+      throw error
+    }
+    
+  }*/
+  
   render() {
-    return (
-      <KeyboardAvoidingView behavior='padding' style={styles.container}> 
-        <TouchableWithoutFeedback style={styles.container} onPress={Keyboard.dismiss}>
-        <View style={styles.container}>
-            <View style={styles.logoContainer}>
-                <Image source={require('./res/images/logo.png')} style={styles.logo}/>
-                <Text style={styles.title}> Вход </Text>
-            </View>
-
-            <View style={styles.formContainer}>
-            <LoginForm/>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </KeyboardAvoidingView>
-    );
+    console.log(this.state.title, '=> Header')
+    console.log('h, w', h, w)
+    const {container} = styles
+    return (<KeyboardAvoidingView behavior='padding' style={container}>
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss} style={container}>
+        <View style={container}>
+          <Header title={this.state.title} />
+          <LoginForm />
+        </View>
+      </TouchableWithoutFeedback>
+    </KeyboardAvoidingView>
+    )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 2,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  logoContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 20,
-  },
-  logo: {
-    width: 140,
-    height: 140,
-  },
-  title: {
-    color: '#000',
-    marginTop: 10,
-    width: 120,
-    textAlign: 'center',
-    fontWeight: 'bold',
-    fontSize: 30,
-
-  },
-
+    backgroundColor: '#FFF'
+  }
 })
