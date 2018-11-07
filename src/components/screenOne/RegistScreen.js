@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react'
 import {
-  View, Text, StyleSheet, TouchableOpacity
+  View, Text, StyleSheet, TouchableOpacity, 
+  TouchableWithoutFeedback, Keyboard
 } from 'react-native'
 import {RegistForm} from '../uikit/form'
 
@@ -8,7 +9,7 @@ export default class RegistScreen extends PureComponent {
   render() {
     const {container, buttonRegist, buttonText, h1} = styles
     const { navigation } = this.props
-    return (
+    return (<TouchableWithoutFeedback onPress={Keyboard.dismiss} style={container}>
       <View style={container}>
         <Text style={h1}> Регистрация </Text>
         <TouchableOpacity 
@@ -22,6 +23,7 @@ export default class RegistScreen extends PureComponent {
           <Text style={buttonText}> Продолжить регистрацию </Text>
         </TouchableOpacity>
       </View>
+    </TouchableWithoutFeedback>
     )
   }
 }

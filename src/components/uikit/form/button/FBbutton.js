@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   socialIkon: {
     width: 100,
-    height: 50
+    height: 30
   }
 })
 

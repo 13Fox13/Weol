@@ -1,0 +1,9 @@
+dependencies: \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/API/methods/VKApiWall.m \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/API/methods/VKApiWall.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/API/methods/VKApiBase.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/Core/VKRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/Core/VKResponse.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/Core/VKObject.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/API/models/VKApiObject.h \
+  /Users/andrejklopov/XcodeProject/Weol/node_modules/react-native-vkontakte-login/ios/vk-ios-sdk/library/Source/API/methods/VKApiConst.h

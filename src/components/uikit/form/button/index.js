@@ -1,2 +1,2 @@
 export * from './FBbutton'
-//export * from './OKbutton'
+export * from './VKbutton'

@@ -56,4 +56,62 @@ dependencies: \
   /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Modules/module.modulemap \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/NSString+MD5.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKSharedTransitioningObject.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKRequestsScheduler.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKJSONOperation.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKHTTPOperation.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKHTTPClient.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUploadWallPhotoRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUploadPhotoRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKOperation.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUploadPhotoBase.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUploadMessagesPhotoRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKCaptchaView.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKBundle.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKAuthorizeController.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/OrderedDictionary.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKAuthorizationResult.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKActivity.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKShareDialogController.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUploadImage.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/NSError+VKError.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKBatchRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKError.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKCaptchaViewController.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKSdkVersion.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKDocs.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKGroup.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKLikes.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiModels.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKImageParameters.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiDocs.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiGroups.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiCaptcha.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiWall.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiPhotos.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiFriends.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiBase.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiUsers.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiConst.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKResponse.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKRequest.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApi.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUtil.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKPermissions.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKRelative.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUniversity.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKSchool.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKPhotoSize.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKPhoto.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKCounters.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKAudio.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiObjectArray.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKApiObject.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKUser.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKObject.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKAccessToken.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKSdk.h \
+  /Users/andrejklopov/XcodeProject/Weol/ios/build/Build/Products/Debug-iphonesimulator/VKSdkFramework.framework/Headers/VKSdkFramework.h
