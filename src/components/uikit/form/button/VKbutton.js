@@ -20,13 +20,13 @@ VKbutton.defaultProps = {
 
 const styles = StyleSheet.create({
   btn: {
-    flex: 0,
     margin: 4,
     height: 29,
     width: 100,
     borderColor: '#4170C9',
     borderRadius: 4,
-    borderWidth: 2
+    borderWidth: 2,
+    marginTop: 8
   },
   circleBtn: {
     width: 24,

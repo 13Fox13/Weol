@@ -8,7 +8,7 @@ import {Header} from '../uikit'
 import {LoginForm} from '../uikit/form'
 import {h, w} from '../../../constants'
 import {WEOL_REGIST} from '../../routes'
-import { FBbutton, VKbutton } from '../uikit/form/button'
+import { FBbutton, VKbutton, OKbutton } from '../uikit/form/button'
 import VKLogin from 'react-native-vkontakte-login'
 
 //const url = '...'
@@ -103,7 +103,7 @@ export default class LoginScreen extends Component {
   render() {
     console.log(this.state.title, '=> Header')
     console.log('h, w', h, w)
-    const {container, buttonRegist, buttonText, logo, logoContainer, vkText} = styles
+    const {container, buttonRegist, buttonText, logo, logoContainer, vkText, okText, row} = styles
     const { navigation } = this.props
     return (<KeyboardAvoidingView behavior='padding' style={container}>
       <TouchableWithoutFeedback onPress={Keyboard.dismiss} style={container}>
@@ -120,11 +120,17 @@ export default class LoginScreen extends Component {
           >
             <Text style={buttonText}> Регистрация </Text>
           </TouchableOpacity>
-          <FBbutton />
-          <VKbutton onPress={this.onLogin} style={logoContainer}>    
-            <Image source={require('../../../res/images/vkLogo.png')} style={logo} />
-            <Text style={vkText}> Log in</Text>
-          </VKbutton>
+          <View style={row}>
+            <FBbutton />
+            <VKbutton onPress={this.onLogin} style={logoContainer}>    
+              <Image source={require('../../../res/images/vkLogo.png')} style={logo} />
+              <Text style={vkText}> Log in</Text>
+            </VKbutton>
+            <OKbutton style={logoContainer}>    
+              <Image source={require('../../../res/images/okLogo.png')} style={logo} />
+              <Text style={okText}> Log in</Text>
+            </OKbutton>
+          </View>
         </View>
       </TouchableWithoutFeedback>
     </KeyboardAvoidingView>
@@ -134,11 +140,20 @@ export default class LoginScreen extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 3,
     justifyContent: 'center',
     alignItems: 'stretch',
     backgroundColor: '#FFF',
-    marginBottom: 8
+    marginBottom: 15
+  },
+  row: {
+    flex: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 1,
+    marginTop: 8,
+    marginRight: 13
+
   },
   buttonRegist: {
     flex: 0,
@@ -157,7 +172,7 @@ const styles = StyleSheet.create({
   },
   logoContainer: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     marginBottom: 20
   },
@@ -168,6 +183,11 @@ const styles = StyleSheet.create({
   vkText: {
     textAlign: 'center',
     color: '#4170C9',
+    fontSize: 12
+  },
+  okText: {
+    textAlign: 'center',
+    color: '#FFF',
     fontSize: 12
   }
 

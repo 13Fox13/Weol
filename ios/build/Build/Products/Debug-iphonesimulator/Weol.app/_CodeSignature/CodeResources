@@ -6,11 +6,11 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		QayF3/tP+b2lH8Ej4LU83e8AOcA=
+		5wsG8NEc1HzLyIZcoI8CATx/bac=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/Assets.car</key>
 		<data>
-		wM5TRD8bXgFt/9laIDBJ3wXSbwU=
+		lyvZY0c8zWFZsSUGPHxp1GaSQ7c=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/Headers/NSError+VKError.h</key>
 		<data>
@@ -250,11 +250,11 @@
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/VKSdkFramework</key>
 		<data>
-		perbi83IJHoLI2cuJGqBrjvlipY=
+		D2V7zeYBlwvcjeJYTMIr83LtKfc=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8xCPPnCfYdIsPLU0NjmS6vfENd4=
+		DXyR5fu/EE2HvS6ZhF4IHFAJrPQ=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -338,22 +338,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QayF3/tP+b2lH8Ej4LU83e8AOcA=
+			5wsG8NEc1HzLyIZcoI8CATx/bac=
 			</data>
 			<key>hash2</key>
 			<data>
-			nni4coiGLy7rq/jx7X5cluLMUsLw9Y6iulUkLnMtOq0=
+			Za0Cio/Ip+/MFGkRx3AIR/GyQ2l1lArgtSVmz2O73iw=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wM5TRD8bXgFt/9laIDBJ3wXSbwU=
+			lyvZY0c8zWFZsSUGPHxp1GaSQ7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			LqHedbHi0oL8TNu4aWQ6tb8r6uTMRxGglhVkKK4uRZM=
+			RAO9nJnEDFYe109vULJX88y6CaIRL8lVq2w6E8Dr+Wk=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/Headers/NSError+VKError.h</key>
@@ -1009,22 +1009,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			perbi83IJHoLI2cuJGqBrjvlipY=
+			D2V7zeYBlwvcjeJYTMIr83LtKfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kEIuHu1wKXKDrIt/E4IE6Mn1/C2olrwqr6CgPshTldA=
+			FL/bXywPUy/iTDwyLGXlogqxvFun4JK2tPIkfBFMba0=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8xCPPnCfYdIsPLU0NjmS6vfENd4=
+			DXyR5fu/EE2HvS6ZhF4IHFAJrPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xCNK/4IHhZ0b6l32m049hA5Ys1BicB5jzhynn8c0hn0=
+			GKFVQSeceogSRDlphhesoNG+pQPE5OkKOucG/uQbZaA=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/en.lproj/Localizable.strings</key>

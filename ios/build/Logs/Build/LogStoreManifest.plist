@@ -6,35 +6,6 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>24FF7FA8-DA23-4E96-87B4-F8D467567829</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>24FF7FA8-DA23-4E96-87B4-F8D467567829.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Weol project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Weol</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Weol with scheme Weol and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>563264836.63566601</real>
-			<key>timeStoppedRecording</key>
-			<real>563264880.46491599</real>
-			<key>title</key>
-			<string>Building project Weol with scheme Weol and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>24FF7FA8-DA23-4E96-87B4-F8D467567829</string>
-		</dict>
 		<key>794B0DC3-3FB2-49F8-87DA-59922A0533D4</key>
 		<dict>
 			<key>className</key>
