@@ -3,7 +3,7 @@ import {
   StyleSheet, TextInput, View 
 } from 'react-native'
 
-const LoginForm = () => {
+const LoginForm = (props) => {
   const {
     container, input
   } = styles
@@ -17,6 +17,7 @@ const LoginForm = () => {
         keyboardType="email-address"
         autoCapitalize='none'
         autoCorrect={false}
+        onChangeText={mop => this.setState({mop})}
         style={input}
       />
       <TextInput 
@@ -26,9 +27,9 @@ const LoginForm = () => {
         returnKeyType="go"
         ref={(input) => this.passwordInput = input}
         autoCorrect={false}
+        onChangeText={pass => this.setState({pass})}
         style={input}
       />
-
     </View>
             
   )

@@ -1,29 +1,39 @@
 import React, {Component} from 'react'
 import {
-  View, StyleSheet, KeyboardAvoidingView, 
+  AppRegistry, View, StyleSheet, KeyboardAvoidingView, 
   TouchableWithoutFeedback, Keyboard, Text,
-  TouchableOpacity, Image
+  TouchableOpacity, Image, Alert, TextInput
 } from 'react-native'
 import {Header} from '../uikit'
-import {LoginForm} from '../uikit/form'
 import {h, w} from '../../../constants'
 import {WEOL_REGIST} from '../../routes'
 import { FBbutton, VKbutton, OKbutton } from '../uikit/form/button'
 import VKLogin from 'react-native-vkontakte-login'
 
-//const url = '...'
+//const url = 'https://weol.ru/'
 export default class LoginScreen extends Component {
-  state = {
-    title: 'Вход',
-    auth: null,
-    logs: [],
-    permissions: 'friends email'
-    //data: []
+  constructor(props) {
+    super(props)
+ 
+    this.state = {
+      title: 'Вход',
+      auth: null,
+      logs: [],
+      permissions: 'friends email',
+      mop: '',
+      pass: ''
+ 
+    }
   }
 
-  componentDidMount() {
+  componentDidMount = async () => {
     VKLogin.initialize(6743507)
+    // 6720838
+    // const response = await fetch(url)
+    // const data = await response.json()
+    // console.log(data)
   }
+
   onLogin = async () => {
     const permissions = this.state.permissions.trim().split(/[ ,]+/)
     this.pushLog('Login', `Logging in with permissions: ${permissions}`)
@@ -89,6 +99,48 @@ export default class LoginScreen extends Component {
     this.setState({ ...this.state, logs: [logItem, ...this.state.logs] })
   }
 
+  // autorize: function() {
+  //   $.ajax({
+  //     type: 'POST',
+  //     url: '/ajax/signin/autorisation.php',
+  //     data: msg,
+  //     success(data) {
+  //       //$('#results').html(data);
+  //       //console.log(data);
+  //       result = $.parseJSON(data)
+  //       if (result[0].status == 'error') { alert(result[0].message) }
+  //       if (result[0].status == 'success') { window.location.href = '/' }
+  //     },
+  //     error(xhr, str) {
+  //       alert(`Возникла ошибка: ${xhr.responseCode}`)
+  //     }
+  //   })
+  // }
+  userRegist = () => {
+    const {mop} = this.state
+    const {pass} = this.state
+
+    fetch('https://weol.ru/ajax/signin/autorisation.php', {
+      method: 'POST',
+      body: JSON.stringify({
+        Mop: mop, 
+        Pass: pass
+      }), 
+      headers: {
+        //Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    }).then((response) => { 
+      Alert.alert(response.status)
+      return response.json() 
+    })
+      .then((data) => {
+        alert(data)
+        const elem = document.getElementById('')
+        elem.innerText = data
+      }).catch(alert)
+  }
+
   /*componentDidMount = async () => {
     try {
       const response = await fetch(url)
@@ -103,15 +155,41 @@ export default class LoginScreen extends Component {
   render() {
     console.log(this.state.title, '=> Header')
     console.log('h, w', h, w)
-    const {container, buttonRegist, buttonText, logo, logoContainer, vkText, okText, row} = styles
+    console.log(this.state.mop)
+    console.log(this.state.pass)
+    const {container, input, buttonRegist, buttonText, logo, logoContainer, vkText, okText, row} = styles
     const { navigation } = this.props
     return (<KeyboardAvoidingView behavior='padding' style={container}>
       <TouchableWithoutFeedback onPress={Keyboard.dismiss} style={container}>
         <View style={container}>
           <Header title={this.state.title} />
-          <LoginForm />
-          
-          <TouchableOpacity style={buttonRegist}>
+          <View>
+            <TextInput 
+              placeholder="Телефон или e-mail"
+              placeholderTextColor="#495057"
+              returnKeyType="next"
+              onSubmitEditing={() => this.passwordInput.focus()}
+              keyboardType="email-address"
+              autoCapitalize='none'
+              autoCorrect={false}
+              onChangeText={mop => this.setState({mop})}
+              style={input}
+            />
+            <TextInput 
+              placeholder="Пароль"
+              placeholderTextColor="#495057"
+              secureTextEntry
+              returnKeyType="go"
+              ref={(input) => this.passwordInput = input}
+              autoCorrect={false}
+              onChangeText={pass => this.setState({pass})}
+              style={input}
+            />
+          </View>
+          <TouchableOpacity 
+            style={buttonRegist} 
+            onPress={this.userRegist}
+          >
             <Text style={buttonText}> Войти </Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -145,6 +223,20 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     backgroundColor: '#FFF',
     marginBottom: 15
+  },
+  input: {
+    marginLeft: 15,
+    height: 50,
+    width: 345,
+    borderColor: '#495057',
+    backgroundColor: '#FFF',
+    borderRadius: 5,
+    borderWidth: 0.2,
+    color: '#000',
+    paddingHorizontal: 10,
+    fontSize: 18
+    //fontFamily: ''
+        
   },
   row: {
     flex: 0,
@@ -192,3 +284,5 @@ const styles = StyleSheet.create({
   }
 
 })
+
+AppRegistry.registerComponent('LoginScreen', () => LoginScreen)

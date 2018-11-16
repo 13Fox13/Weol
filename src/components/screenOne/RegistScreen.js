@@ -3,6 +3,7 @@ import {
   View, Text, StyleSheet, TouchableOpacity, 
   TouchableWithoutFeedback, Keyboard
 } from 'react-native'
+import {WEOL_SLIDE} from '../../routes'
 import {RegistForm} from '../uikit/form'
 
 export default class RegistScreen extends PureComponent {
@@ -19,7 +20,10 @@ export default class RegistScreen extends PureComponent {
           <Text style={buttonText}> У меня есть логи и пароль </Text>
         </TouchableOpacity>
         <RegistForm />
-        <TouchableOpacity style={buttonRegist}>
+        <TouchableOpacity 
+          onPress={() => navigation.navigate(WEOL_SLIDE)}
+          style={buttonRegist}
+        >
           <Text style={buttonText}> Продолжить регистрацию </Text>
         </TouchableOpacity>
       </View>

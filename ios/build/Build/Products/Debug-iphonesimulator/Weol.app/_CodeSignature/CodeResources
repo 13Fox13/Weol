@@ -6,11 +6,11 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		5wsG8NEc1HzLyIZcoI8CATx/bac=
+		8uzlDzPRzhCVuDGt8CglsUyXPK8=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/Assets.car</key>
 		<data>
-		lyvZY0c8zWFZsSUGPHxp1GaSQ7c=
+		gvCHxDuDQLRyl7DVDYLtepM0r7I=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/Headers/NSError+VKError.h</key>
 		<data>
@@ -250,11 +250,11 @@
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/VKSdkFramework</key>
 		<data>
-		D2V7zeYBlwvcjeJYTMIr83LtKfc=
+		IjqtvWiqlvxf0M1EO81B7Y+uvzg=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/_CodeSignature/CodeResources</key>
 		<data>
-		DXyR5fu/EE2HvS6ZhF4IHFAJrPQ=
+		KrmtlC+S4fC8k2l82kdUYVyJoyU=
 		</data>
 		<key>Frameworks/VKSdkFramework.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -325,7 +325,7 @@
 		</data>
 		<key>PlugIns/WeolTests.xctest/WeolTests</key>
 		<data>
-		F/pA03tHqKi1rjkD8cZRseZFh74=
+		JPOiFcU05F/UbTsGGu3jGzqs4O0=
 		</data>
 		<key>PlugIns/WeolTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -338,22 +338,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5wsG8NEc1HzLyIZcoI8CATx/bac=
+			8uzlDzPRzhCVuDGt8CglsUyXPK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Za0Cio/Ip+/MFGkRx3AIR/GyQ2l1lArgtSVmz2O73iw=
+			hZYn3y1uZxbcz6nDCWSCTkWwdXP3ZryCH10ukPvb3Yg=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lyvZY0c8zWFZsSUGPHxp1GaSQ7c=
+			gvCHxDuDQLRyl7DVDYLtepM0r7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			RAO9nJnEDFYe109vULJX88y6CaIRL8lVq2w6E8Dr+Wk=
+			xpqUFOcDTTnlvVhlyUKRDmP6hvWwbWU+lyh4KWwNRq4=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/Headers/NSError+VKError.h</key>
@@ -1009,22 +1009,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D2V7zeYBlwvcjeJYTMIr83LtKfc=
+			IjqtvWiqlvxf0M1EO81B7Y+uvzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			FL/bXywPUy/iTDwyLGXlogqxvFun4JK2tPIkfBFMba0=
+			yMTNB2gMsuHHoegxEsxsTkZmcUTpGZqWQcuVM/QV/q0=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DXyR5fu/EE2HvS6ZhF4IHFAJrPQ=
+			KrmtlC+S4fC8k2l82kdUYVyJoyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GKFVQSeceogSRDlphhesoNG+pQPE5OkKOucG/uQbZaA=
+			YplDAh4FqwUYgNr2EiCOHppDcwj66ILT/burBX2DDFM=
 			</data>
 		</dict>
 		<key>Frameworks/VKSdkFramework.framework/en.lproj/Localizable.strings</key>
@@ -1158,11 +1158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F/pA03tHqKi1rjkD8cZRseZFh74=
+			JPOiFcU05F/UbTsGGu3jGzqs4O0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GARHf4kfJz4wtvYWaaJ/2jOyy7E8VZxjQEVIl7fb0a8=
+			khwj+72LT0GsWg/I2QqJ3DjDXe/McKRsIsr6upUpOp0=
 			</data>
 		</dict>
 		<key>PlugIns/WeolTests.xctest/_CodeSignature/CodeResources</key>

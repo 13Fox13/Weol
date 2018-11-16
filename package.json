@@ -11,11 +11,13 @@
     "eslint": "^5.8.0",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
+    "react-native-deck-swiper": "^1.5.22",
     "react-native-fbsdk": "^0.8.0",
     "react-native-picker-select": "^5.0.1",
     "react-native-vkontakte-login": "^0.3.22",
     "react-navigation": "^2.18.2",
-    "react-select": "^2.1.1"
+    "react-select": "^2.1.1",
+    "tcomb-form-native": "^0.6.20"
   },
   "devDependencies": {
     "@babel/runtime": "^7.1.2",
