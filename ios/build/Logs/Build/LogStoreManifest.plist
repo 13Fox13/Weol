@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>794B0DC3-3FB2-49F8-87DA-59922A0533D4</key>
+		<key>6379A6D1-497C-4641-A1EB-B34E2E4F0F78</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>794B0DC3-3FB2-49F8-87DA-59922A0533D4.xcactivitylog</string>
+			<string>6379A6D1-497C-4641-A1EB-B34E2E4F0F78.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Building project Weol with scheme Weol and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>563268133.84555697</real>
+			<real>565089884.08516502</real>
 			<key>timeStoppedRecording</key>
-			<real>563268138.49135602</real>
+			<real>565089890.83414698</real>
 			<key>title</key>
 			<string>Building project Weol with scheme Weol and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>794B0DC3-3FB2-49F8-87DA-59922A0533D4</string>
+			<string>6379A6D1-497C-4641-A1EB-B34E2E4F0F78</string>
+		</dict>
+		<key>B37F1663-EF67-4ED4-A95C-94C2B3C8BA7F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B37F1663-EF67-4ED4-A95C-94C2B3C8BA7F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Weol project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Weol</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Weol with scheme Weol and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>565093857.94356</real>
+			<key>timeStoppedRecording</key>
+			<real>565093864.58842301</real>
+			<key>title</key>
+			<string>Building project Weol with scheme Weol and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B37F1663-EF67-4ED4-A95C-94C2B3C8BA7F</string>
 		</dict>
 	</dict>
 </dict>
